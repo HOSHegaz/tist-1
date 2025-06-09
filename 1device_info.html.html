@@ -1,0 +1,105 @@
+html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معلومات الجهاز</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            padding-top: 60px; /* مساحة إضافية للشعار */
+        }
+        .logo {
+            max-width: 150px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .header-logo {
+            max-width: 120px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: #333;
+            margin: 10px 0;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .info-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .info-table th, .info-table td {
+            padding: 12px 15px;
+            text-align: right;
+            border-bottom: 1px solid #ddd;
+        }
+        .info-table th {
+            background-color: #f2f2f2;
+            color: #333;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- شعار الشركة في الزاوية اليمنى العليا -->
+        <img src="tist1.jpg.jpeg" alt="شعار الشركة" class="logo">
+        
+        <div class="header">
+            <h1>Device information</h1>
+        </div>
+
+        <table class="info-table">
+            <tr>
+                <th>Company Name:</th>
+                <td>Tayseer TDC</td>
+            </tr>
+            <tr>
+                <th>Serial number:</th>
+                <td>SN-123456789</td>
+            </tr>
+            <tr>
+                <th>Device name:</th>
+                <td>Hosam Hegazy</td>
+            </tr>
+            <tr>
+                <th>RAM capacity</th>
+                <td>16 GB</td>
+            </tr>
+            <tr>
+                <th>Storage space:</th>
+                <td>512 GB SSD</td>
+            </tr>
+            <tr>
+                <th>Processor type:</th>
+                <td>Intel Core i7-1165G7</td>
+            </tr>
+            <tr>
+                <th>IP number (anydisk):</th>
+                <td>1 063 224 498</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
